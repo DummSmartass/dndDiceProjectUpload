@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DnDdices:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DnDdices_jar</output-path>
+    <root id="archive" name="DnDdices.jar">
+      <element id="module-output" name="DnDdices" />
+      <element id="extracted-dir" path="$PathToFx$/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PathToFx$/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PathToFx$/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PathToFx$/javafx.fxml.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
